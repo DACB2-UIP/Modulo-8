@@ -9,9 +9,9 @@ env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: app-uip
   ECS_SERVICE: servicio-uip
-  ECS_CLUSTER: Cluster-UIP
+  ECS_CLUSTER: Cluster-dacb2
   ECS_TASK_DEFINITION: task-definition.json
-  CONTAINER_NAME: web
+  CONTAINER_NAME: contenedor-nginx
 
 jobs:
   deploy:
